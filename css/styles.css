@@ -1,0 +1,230 @@
+body{
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    background-color: #e3e3e3;
+}
+
+a:link {color:#44A8FF;}    
+a:visited {color:#8277E8;}  
+a:hover {color:#431136;;}
+a:active {color:#0000FF;}
+
+.errors{
+    color: #750000;
+}
+
+.stay{
+    position: relative;
+}
+
+#no_account{
+    border: 1px solid black;
+    width: 395px;
+    color: #750000;
+    position: absolute;
+    top: 414px;
+    left: 438px; 
+}
+
+#wrapper{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header{
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#login_form{
+   /* border: 1px solid black;*/
+    width: 390px;
+    margin: 80px auto 0 auto;
+}
+
+#login_form label{
+    float: left;
+    width: 78px;
+    height: 30px;
+    margin-top: 13px;
+    text-align: right;
+}
+
+#login_form input{
+    width: 250px;
+    height: 30px;
+    margin-left: 8px;
+    margin-bottom: 30px;
+    border: 5px solid white;
+    border-radius:10px;
+}
+
+#login_form .button{
+    width: 125px;
+    height: 30px;
+    margin-left: 264px;
+    border: 3px solid white;
+}
+
+#login_form p{
+    margin: 50px 0 0 122px;
+}
+
+#signup_form{
+   /* border: 1px solid black;*/
+    width: 400px;
+    margin: 80px auto 0 auto;
+}
+
+#signup_form label{
+    float: left;
+    width: 120px;
+    height: 30px;
+    margin-top: 10px;
+    text-align: right;
+}
+
+#signup_form input{
+    width: 250px;
+    height: 30px;
+    margin-left: 8px;
+    margin-bottom: 30px;
+    border: 5px solid white;
+    border-radius:10px;
+}
+
+#signup_form .button{
+    width: 125px;
+    height: 30px;
+    margin-left: 305px;
+    border: 3px solid white;
+}
+
+#signup_form .re-route{
+    width: 250px;
+    margin: 40px 0 0 140px;
+}
+
+#signup_form .errors{
+    display: inline;
+    position: relative;
+    left: 400px;
+    bottom: 62px;
+    font-size: 12px;
+}
+
+#admin_form{
+   /* border: 1px solid black;*/
+    width: 400px;
+    margin: 80px auto 0 auto;
+}
+
+#admin_form label{
+    float: left;
+    width: 115px;
+    height: 30px;
+    margin-top: 10px;
+    text-align: right;
+}
+
+#admin_form input{
+    width: 250px;
+    height: 30px;
+    margin-left: 8px;
+    margin-bottom: 30px;
+    border: 5px solid white;
+    border-radius:10px;
+}
+
+#admin_form select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 260px;
+    height: 43px;
+    margin-left: 8px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+#admin_form textarea{
+    width: 252px;
+    height: 160px;
+    margin-left: 8px;
+    margin-bottom: 30px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+#admin_form .button{
+    width: 125px;
+    height: 30px;
+    margin-left: 302px;
+    border: 3px solid white;
+}
+
+#admin_form p{
+    margin: 40px 0 0 155px;
+}
+
+#admin_form .errors{
+    padding-bottom: 0;
+    display: inline;
+    position: relative;
+    left: 237px;
+    bottom: 61px;
+    font-size: 12px;
+}
+
+#preview-btn{
+    position: relative;
+    width: 125px;
+    height: 30px;
+    left: 400px;
+    bottom: 35px;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+#contact{
+    /*border: 1px solid black;*/
+    width: 1060px;
+    height: 166px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+#contact h3{
+    font-size: 15px;
+    text-align: center;
+}
+
+#titles{
+   margin-bottom: 75px; 
+   font-size: 20px;
+   font-style: underline;
+}
+
+#contact li{
+    /*border: 1px solid black;*/
+    list-style-type: none;
+    width: 250px;
+    float: left;
+    text-align: center;
+    
+}
+
+#about{
+    width: 500px;
+    margin: 75px auto 0 auto;
+}
+
+#about h3{
+    text-align: center;
+}
+
+#profile3{
+    width: 100%;
+    height: 100%;
+}
